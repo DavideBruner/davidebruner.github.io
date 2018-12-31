@@ -32,7 +32,9 @@
   },
   "keywords": [
     "gatsby",
-    "starter",
+    "javascript",
+    "react",
+    "graphQL",
     "portfolio"
   ],
   "scripts": {
