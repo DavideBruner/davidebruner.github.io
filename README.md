@@ -1,6 +1,4 @@
-![](https://i.imgur.com/hWB1XRO.png)
-
-# Gatsby Starter Portfolio: Cara
+# Gatsby Starter - Davide Bruner Portfolio
 
 A portfolio starter for [Gatsby](https://www.gatsbyjs.org/). The target audience are designers and photographers.
 
