@@ -21,7 +21,7 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 
 ## Deploy
 
-The static generated site is deployed on Github Pages using the `peaceiris/actions-gh-pages@v3` github action. (the `next export` command generates the build into the `./out` directory by default)
+The static generated site is deployed on Github Pages using the [`peaceiris/actions-gh-pages@v3`](https://github.com/marketplace/actions/github-pages-action) github action. (the `next export` command generates the build into the `./out` directory by default)
 
 Check `.github/workflows/deploy.yml` for more details.
 
