@@ -1,0 +1,55 @@
+
+  .nav {
+    position: relative;
+    top: -2px;
+    display: flex;
+    align-items: center;
+  
+    @media (min-width: 480px) {
+      top: 0;
+    }
+  }
+  
+  .links {
+    display: flex;
+    margin-right: 0;
+    margin-bottom: 0;
+    padding: 0;
+    font-weight: 700;
+    font-size: 14px;
+    list-style: none;
+  
+    @media (min-width: 370px) {
+      font-size: 17px;
+    }
+  }
+  
+  .link {
+    margin-right: 25px;
+    padding: 4px 0;
+    opacity: 0.6;
+  
+    &:hover,
+    &:focus {
+      opacity: 1;
+    }
+  
+    @media (min-width: 480px) {
+      margin-right: 35px;
+    }
+  
+    @media (min-width: 768px) {
+      margin-right: 75px;
+      margin-left: 0;
+    }
+  
+    &:last-of-type {
+      margin-right: 0;
+    }
+  }
+  
+  .linkActive {
+    composes: link;
+    box-shadow: 0 2px 0 var(--brand);
+    opacity: 1;
+  }
